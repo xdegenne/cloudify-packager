@@ -106,7 +106,7 @@ VARS = {
         ],
         "modules": {
                 "cloudify_rest_client": "git+git://github.com/cloudify-cosmo/cloudify-rest-client.git@3.2",
-                "cloudify_plugins_common": "git+git://github.com/cloudify-cosmo/cloudify-plugins-common.git@3.2",
+                "cloudify_plugins_common": "-b wfworks https://github.com/xdegenne/cloudify-packager.git",
                 "cloudify_script_plugin": "git+git://github.com/cloudify-cosmo/cloudify-script-plugin.git@1.2",
                 "cloudify_manager": "-b 3.2 https://github.com/cloudify-cosmo/cloudify-manager.git",
             },
